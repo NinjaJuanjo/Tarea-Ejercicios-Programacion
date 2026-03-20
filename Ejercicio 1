@@ -1,0 +1,5 @@
+from scipy.stats import poisson
+
+# P(X >= 5)
+prob = 1 - poisson.cdf(4, 3)
+print(prob)
