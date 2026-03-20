@@ -1,0 +1,5 @@
+from scipy.stats import expon
+
+# escala = 1/lambda
+prob = expon.sf(3, scale=1/0.5)
+print(prob)
