@@ -1,0 +1,4 @@
+from scipy.stats import norm
+
+prob = 1 - norm.cdf(180, 170, 10)
+print(prob)
